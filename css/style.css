@@ -4,7 +4,7 @@
     --space-md:10px;
     --space-sl:15px;
     --space-sxl:20px;
-    --space-xxl:30px;
+    --space-xxl:35px;
 }
 
 /*reset*/
@@ -31,9 +31,12 @@ ul{
 }
 
 /*utility*/
-.flex{
+.start{
     background-color: #add8e6;
     height: 70px; 
+}
+
+.flex{ 
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -48,7 +51,7 @@ ul{
 }
 
 .start-row-middle{
-    flex-basis: 50%;
+    flex-basis: 40%;
     min-height: var(--space-xxl);
     background-color: #daa520;
 }
@@ -63,4 +66,41 @@ ul{
 
 .dashed{
     border: 2px dashed black;
+}
+
+.blue-container{
+    height: 500px;
+    background-color: #00008b;
+}
+
+.pink-row{
+    flex-basis: 50%;
+    min-height: 80%;
+    background-color: #ee82ee;
+    border: 2px dashed black;
+    border-radius: 7px;
+}
+
+.white-container{
+    height: 500px;
+    background-color:white;
+}
+
+.blue-row{
+    flex-basis: 35%;
+    min-height: 80%;
+    background-color: #1e90ff;
+    border: 2px dashed black;
+}
+
+.flesh-row{
+    flex-basis: 25%;
+    min-height: 80%;
+    background-color: #ffc0cb;
+    border: 2px dashed black;
+}
+
+.grey-container{
+    height: 500px;
+    background-color: lightgray;
 }
