@@ -30,10 +30,6 @@ ul{
     padding: var(--space-sm);
 }
 
-span{
-    
-}
-
 /*utility*/
 .toolbar{
     background-color: #add8e6;
