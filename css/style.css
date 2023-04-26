@@ -100,7 +100,45 @@ ul{
     border: 2px dashed black;
 }
 
-.grey-container{
+.lightgrey-container{
     height: 500px;
     background-color: lightgray;
+}
+
+.green-row{
+    flex-basis: 60%;
+    min-height: 90%;
+    background-color: #228b22;
+    border: 2px dashed black;
+}
+
+.grey-container{
+    height: 900px;
+    background-color: lightgray;
+}
+
+.black-container{
+    height: 500px;
+    background-color: #000000;
+}
+
+.lightpink-row{
+    flex-basis: 20%;
+    min-height: 90%;
+    background-color: #f08080;
+    border: 2px dashed black;
+    margin-bottom: var(--space-sl);
+}
+
+.lightblue-row{
+    flex-basis: 10%;
+    min-height: 90%;
+    background-color: #20b2aa;
+    border: 2px dashed white;
+    margin-bottom: var(--space-sl);
+}
+
+.line-separator{
+    height: 1px;
+    border: 1px solid white;
 }
