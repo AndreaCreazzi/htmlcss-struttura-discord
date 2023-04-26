@@ -1,6 +1,10 @@
 /*shortcut*/
 :root{
-
+    --space-sm:5px;
+    --space-md:10px;
+    --space-sl:15px;
+    --space-sxl:20px;
+    --space-xxl:30px;
 }
 
 /*reset*/
@@ -11,6 +15,52 @@
 }
 
 /*generics*/
+li{
+    list-style-type: none;
+    display: inline;
+}
 
+li a{
+    color: black;
+    text-decoration: none;
+}
+
+ul{
+    text-align: center;
+    padding: var(--space-sm);
+}
 
 /*utility*/
+.flex{
+    background-color: #add8e6;
+    height: 70px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.start-row-left{
+    flex-basis: 10%;
+    min-height: var(--space-xxl);
+    background-color: #daa520;
+    padding: var(--space-sm);
+}
+
+.start-row-middle{
+    flex-basis: 50%;
+    min-height: var(--space-xxl);
+    background-color: #daa520;
+}
+
+.start-row-rigth{
+    flex-basis: 10%;
+    min-height: var(--space-xxl);
+    background-color: #daa520;
+    text-align: right;
+    padding: var(--space-sm);
+}
+
+.dashed{
+    border: 2px dashed black;
+}
