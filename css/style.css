@@ -30,8 +30,12 @@ ul{
     padding: var(--space-sm);
 }
 
+span{
+    
+}
+
 /*utility*/
-.start{
+.toolbar{
     background-color: #add8e6;
     height: 70px; 
 }
@@ -141,4 +145,31 @@ ul{
 .line-separator{
     height: 1px;
     border: 1px solid white;
+}
+
+.banner{
+    background-color: black;
+    height: 70px;
+}
+
+.aquamarine-row{
+    flex-basis: 60%;
+    min-height: 75%;
+    background-color: #7fffd4;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+.logo{
+    background-color: #ffb6c1;
+    border: 2px dashed black;
+    font-size: var(--space-sxl);
+    padding: 2px 2px;
+}
+
+.button{
+    background-color: #ffb6c1;
+    border: 2px dashed black;
+    font-size: var(--space-sxl);
+    padding: 2px 2px;
 }
